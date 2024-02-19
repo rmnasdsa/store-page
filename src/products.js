@@ -1,5 +1,5 @@
 
-import { root,container } from "./app.js";
+import { container } from "./app.js";
 const products = () => {
 
   const product = document.createElement('div');

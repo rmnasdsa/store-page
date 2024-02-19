@@ -6,6 +6,9 @@ export const root = document.querySelector('.root');
 export const container = document.createElement('div');
 
 shoppingCartList();
+shoppingCartList();
+shoppingCartList();
+shoppingCartList();
 root.append(container);
 products();
 products();
