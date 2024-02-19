@@ -6,5 +6,7 @@ export const container = document.createElement('div');
 root.append(container);
 products();
 products();
+products();
+products();
 fetchData();
 

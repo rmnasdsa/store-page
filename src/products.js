@@ -16,6 +16,7 @@ const products = () => {
   product_cost.className = 'product-cost';
   product.append(product_cost);
   const select_product_btn = document.createElement('button');
+  select_product_btn.className = 'btns';
   product.append(select_product_btn);
   select_product_btn.innerText = 'select';
 }
