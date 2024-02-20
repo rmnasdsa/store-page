@@ -12,6 +12,9 @@ const shoppingCartList = () => {
   const product_cost_selected = document.createElement('p');
   product_cost_selected.className = 'product-cost-selected';
   shopping_cart_item.append(product_cost_selected);
+  const number_of_product = document.createElement('span');
+  number_of_product.className = 'number-of-product';
+  shopping_cart_item.append(number_of_product);
   const increase_btn = document.createElement('button');
   shopping_cart_item.append(increase_btn);
   increase_btn.classList = 'increase-btn display'
@@ -24,5 +27,6 @@ const shoppingCartList = () => {
   shopping_cart_item.append(remove_btn)
   remove_btn.classList = 'remove-btn display';
   remove_btn.innerText = 'X';
+  
 }
 export default shoppingCartList;
