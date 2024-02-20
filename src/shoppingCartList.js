@@ -13,13 +13,16 @@ const shoppingCartList = () => {
   product_cost_selected.className = 'product-cost-selected';
   shopping_cart_item.append(product_cost_selected);
   const increase_btn = document.createElement('button');
-  increase_btn.className = 'increase-btn';
+  shopping_cart_item.append(increase_btn);
+  increase_btn.classList = 'increase-btn display'
   increase_btn.innerText = '+';
   const decrease_btn = document.createElement('button');
-  decrease_btn.className = 'decrease-btn';
+  shopping_cart_item.append(decrease_btn);
+  decrease_btn.classList = 'decrease-btn display';
   decrease_btn.innerText = '-';
   const remove_btn = document.createElement('button');
-  remove_btn.className = 'remove-btn';
+  shopping_cart_item.append(remove_btn)
+  remove_btn.classList = 'remove-btn display';
   remove_btn.innerText = 'X';
 }
 export default shoppingCartList;

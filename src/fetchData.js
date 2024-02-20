@@ -11,6 +11,8 @@ const fetchData = () => {
   const decrease_btn = document.querySelectorAll('.decrease-btn');
   const remove_btn = document.querySelectorAll('.remove-btn');
   const shopping_cart_item = document.querySelectorAll('.shopping-cart-item')
+  const display = document.querySelectorAll('.display');
+  console.log(display);
   const getData = async () => {
     const data = await fetch('../src/data/data.json').then((response) => response.json());
     // console.log(data.products);
@@ -46,27 +48,37 @@ const fetchData = () => {
         select_product_btn[0].addEventListener('click', () => {
           if (id == 1) {
             product_name_selected[0].innerText = name;
-            product_cost_selected[0].innerText = cost;
-            shopping_cart_item[0].append(increase_btn[0]);
-            
+            product_cost_selected[0].innerText = cost;  
+            display[0].style.display = 'inline-block';
+            display[1].style.display = 'inline-block';
+            display[2].style.display = 'inline-block';
           }
         })
         select_product_btn[1].addEventListener('click', () => {
           if (id == 2) {
             product_name_selected[1].innerText = name;
             product_cost_selected[1].innerText = cost;
+            display[3].style.display = 'inline-block';
+            display[4].style.display = 'inline-block';
+            display[5].style.display = 'inline-block';
           }
         })
         select_product_btn[2].addEventListener('click', () => {
           if (id == 3) {
             product_name_selected[2].innerText = name;
             product_cost_selected[2].innerText = cost;
+            display[6].style.display = 'inline-block';
+            display[7].style.display = 'inline-block';
+            display[8].style.display = 'inline-block';
           }
         })
         select_product_btn[3].addEventListener('click', () => {
           if (id == 4) {
             product_name_selected[3].innerText = name;
             product_cost_selected[3].innerText = cost;
+            display[9].style.display = 'inline-block';
+            display[10].style.display = 'inline-block';
+            display[11].style.display = 'inline-block';
           }
         })
         
