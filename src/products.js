@@ -3,6 +3,7 @@ import { container } from "./app.js";
 const products = () => {
 
   const product = document.createElement('div');
+  product.className = 'product';
   container.append(product);
   const product_img = document.createElement('img');
   product.append(product_img);

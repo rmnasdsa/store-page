@@ -1,4 +1,4 @@
-export let count = 1;
+
 const calculate = () => {
 
   const remove_btn = document.querySelectorAll('.remove-btn');

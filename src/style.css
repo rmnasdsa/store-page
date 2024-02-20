@@ -1,11 +1,22 @@
-body{
+body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-.display{
+
+.display {
   display: none;
 }
-.sum-btn{
+
+.sum-btn {
   display: none;
+}
+
+.container {
+  display: flex;
+  margin: 100px;
+}
+
+.product {
+  margin: 70px;
 }
