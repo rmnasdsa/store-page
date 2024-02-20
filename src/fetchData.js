@@ -7,6 +7,10 @@ const fetchData = () => {
   const product_name_selected = document.querySelectorAll('.product-name-selected');
   const select_product_btn = document.querySelectorAll('.btns');
   const product_cost_selected = document.querySelectorAll('.product-cost-selected');
+  const increase_btn = document.querySelectorAll('.increase-btn');
+  const decrease_btn = document.querySelectorAll('.decrease-btn');
+  const remove_btn = document.querySelectorAll('.remove-btn');
+  const shopping_cart_item = document.querySelectorAll('.shopping-cart-item')
   const getData = async () => {
     const data = await fetch('../src/data/data.json').then((response) => response.json());
     // console.log(data.products);
@@ -43,6 +47,8 @@ const fetchData = () => {
           if (id == 1) {
             product_name_selected[0].innerText = name;
             product_cost_selected[0].innerText = cost;
+            shopping_cart_item[0].append(increase_btn[0]);
+            
           }
         })
         select_product_btn[1].addEventListener('click', () => {
