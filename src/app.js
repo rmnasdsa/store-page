@@ -15,6 +15,7 @@ products();
 products();
 products();
 products();
-fetchData();
 calculate();
+fetchData();
+
 
