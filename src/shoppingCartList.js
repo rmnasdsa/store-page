@@ -36,7 +36,7 @@ const shoppingCartList = (classOfShoppingCartList) => {
     remove_btn.classList = 'remove-btn display';
     remove_btn.innerText = 'X';
     const sum_btn = document.createElement('button');
-    sum_btn.classList = 'sum-btn';
+    sum_btn.classList = 'sum-btn btns';
     shopping_cart_list.append(sum_btn);
     sum_btn.innerText = 'sum';
     const payments = document.createElement('h1');

@@ -2,26 +2,64 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+  /* color: rgb(88, 86, 86); */
+}
+
+.root {
+  background-color: gray;
 }
 
 .display {
   display: none;
-}
-
-.sum-btn {
-  display: none;
+  border: none;
+  border-radius: 50%;
+  background-color: rgb(89, 105, 243);
+  color: black;
+  padding: 7px 13px;
+  margin: 3px;
 }
 
 .container {
   display: flex;
   margin: 100px;
+  background-image: url('https://cdn11.bigcommerce.com/s-j81d740clj/images/stencil/original/image-manager/02222024-hp-mob-hero-1080x960-01.jpg?t=1708018466');
+  height: 70vh;
+  /* background-position: center; */
 }
 
 .product {
   margin: 70px;
 }
-.shopping-cart-list{
-  background-image: url('https://inc42.com/wp-content/uploads/2023/08/Glossary-Series-D2C-ftr-social-F5.jpg');
-  background-position:center ;
-  height: 160vh;
+
+.shopping-cart-list {
+  background-image: url('https://www.ikea.com/ext/ingkadam/m/6878c36e464ccc78/original/PH177015-crop001.jpg?f=s');
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  color: rgb(8, 32, 78);
+  background-color: white;
+  /* margin-left: ; */
+}
+
+.btns {
+  border: none;
+  border-radius: 5px;
+  padding: 7px 20px;
+  color: gray;
+  cursor: pointer;
+}
+
+.sum-btn {
+  display: none;
+  background-color: darkblue;
+  color: white;
+}
+
+.shopping-cart-item {
+  margin: 70px 100px;
+  background-color: rgb(231, 221, 221);
+  width: 200px;
+  
 }
