@@ -20,3 +20,8 @@ body {
 .product {
   margin: 70px;
 }
+.shopping-cart-list{
+  background-image: url('https://inc42.com/wp-content/uploads/2023/08/Glossary-Series-D2C-ftr-social-F5.jpg');
+  background-position:center ;
+  height: 160vh;
+}

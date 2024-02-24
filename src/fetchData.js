@@ -33,6 +33,7 @@ const fetchData = () => {
         if (id == 2) {
           product_cost[1].innerText = `${cost} $`;
           product_name[1].innerText = name;
+          console.log(product_cost[1]);
         
         }
         if (id == 3) {
@@ -165,7 +166,7 @@ const fetchData = () => {
           payments[3].innerHTML = `payments = ${sum}$`;
         })
      
-    })
+      })
     
   };
   getData();

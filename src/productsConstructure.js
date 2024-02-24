@@ -1,7 +1,10 @@
 
 import { container } from "./app.js";
-const products = () => {
+import { products } from './data/data.js';
+const productsConstructure = () => {
 
+  products.map(() => {
+  
   const product = document.createElement('div');
   product.className = 'product';
   container.append(product);
@@ -19,6 +22,8 @@ const products = () => {
   const select_product_btn = document.createElement('button');
   select_product_btn.className = 'btns';
   product.append(select_product_btn);
-  select_product_btn.innerText = 'select';
+    select_product_btn.innerText = 'select';
+    
+  })
 }
-export default products;
+export default productsConstructure;
