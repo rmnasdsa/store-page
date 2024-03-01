@@ -63,3 +63,10 @@ body {
   width: 200px;
   
 }
+.search-bar{
+  margin: 0 30%;
+  padding: 15px 10px;
+  border: none;
+  border-radius: 20px;
+  width: 30%;
+}

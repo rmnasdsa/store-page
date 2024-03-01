@@ -8,9 +8,10 @@ export const root = document.querySelector('.root');
 export const container = document.createElement('div');
 container.className = 'container';
 
-searchProduct();
+
 root.append(container);
 products();
+searchProduct();
 // products();
 // products();
 // products();
