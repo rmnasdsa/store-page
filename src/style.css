@@ -14,7 +14,6 @@ body {
   display: none;
   border: none;
   border-radius: 50%;
-  background-color: rgb(89, 105, 243);
   color: black;
   padding: 7px 13px;
   margin: 3px;
@@ -37,9 +36,10 @@ body {
   /* background-position: center; */
   background-repeat: no-repeat;
   width: 100%;
-  height: 100vh;
-  color: rgb(8, 32, 78);
-  background-color: white;
+  height: 112vh;
+  /* color: rgb(8, 32, 78); */
+  color: rgb(240, 230, 230);
+  background-color: rgb(73, 146, 116);
   /* margin-left: ; */
 }
 
@@ -55,15 +55,18 @@ body {
   display: none;
   background-color: darkblue;
   color: white;
+  margin: 70px 46vw;
 }
 
 .shopping-cart-item {
-  margin: 70px 100px;
-  background-color: rgb(231, 221, 221);
+  margin: 70px 46vw;
   width: 200px;
-  
+
 }
-.search-bar{
+.payments{
+  margin: 40px 46vw;
+}
+.search-bar {
   margin: 0 30%;
   padding: 15px 10px;
   border: none;
